@@ -1,4 +1,4 @@
-# JacobStrasse-Tramline
+# JacobStraße-Tramline
 An OvGU Simulation project, Summer semester 2018
 
 ## The goal
