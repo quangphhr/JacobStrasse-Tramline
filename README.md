@@ -6,13 +6,13 @@ A clear reason to whether the city of Magdeburg should create a tram line at Jac
 
 ## Project map
 
-<span>
+<p>
                     E1              E2                      E3
                     |               |                       |
 S1--T1--S2--T2--S3--T3--S4--T4--S5--T5--S6--T6--S7--T7--S8--T8--S9
     |       |               |               |       |
     W1      W2              W3              W4      W5
-</span>
+</p>
 
 ## Current progress
 
