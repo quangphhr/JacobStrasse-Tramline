@@ -28,7 +28,6 @@ S1--T1--S2--T2--S3--T3--S4--T4--S5--T5--S6--T6--S7--T7--S8--T8--S9
 
 * The windows 3D view can not be calibrated. A big blank area is display insted of fullscreen.  An error relates to OPEN GL is also generated after every simulation.  This problem might be because of the graphic card.
 * When there is no lane connector (to turn for example), the model generates error instead of pushing the car to "out way not found".
-
 ![Error1](https://github.com/quangphhr/JacobStrasse-Tramline/blob/master/Material/Out%20way%20not%20found.png "Out way not found")
 * Is there a way to prioritize 1 lane, especially inner lane, because the tram is deploy there and should have priority.
 
