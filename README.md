@@ -1,3 +1,4 @@
+
 # JacobStraße-Tramline
 An OvGU Simulation project, Summer semester 2018
 
@@ -22,6 +23,7 @@ S1--T1--S2--T2--S3--T3--S4--T4--S5--T5--S6--T6--S7--T7--S8--T8--S9
 * Both cars and trams are limit at 50 km/h
 * Histogram data and chart of car's life span, both directions.
 * Code for counting queue length at E3 and S7 (northward) at T6 and T8.
+* **For Validation** all car sources are changed to generate normal hour car for 1 hour, then rush hour car rate.  The validation experiment runs for 2 hour only.
 
 
 ## Problem
