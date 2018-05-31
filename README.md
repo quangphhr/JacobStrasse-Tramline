@@ -36,8 +36,8 @@ S1--T1--S2--T2--S3--T3--S4--T4--S5--T5--S6--T6--S7--T7--S8--T8--S9
 
 ## To do
 
-* Run the model 1000 times, 12 hours each to calculate the confident interval of "car life span"
-* Validation: Compare the average Life span of car traveling JacobStraße with the real value. Also queue length if possible
+* Run the model 1000 times, ~~12~~ 2 hours each to calculate the confident interval of "car life span"
+* Validation: Compare the average Life span of car traveling JacobStraße with the real value. Also queue length.
 * Experiment:
   * Creating a tramline, experiment 1 & 2 lane for car.
   * Optimize the location of the tram station (Tram station is in the middle of the road, all cars will have to wait for the tram).
