@@ -24,19 +24,18 @@ S1--T1--S2--T2--S3--T3--S4--T4--S5--T5--S6--T6--S7--T7--S8--T8--S9
 * Histogram data and chart of car's life span, both directions.
 * Code for counting queue length at E3 and S7 (northward) at T6 and T8.
 * **For Validation** all car sources are changed to generate normal hour car for 1 hour, then rush hour car rate.  The validation experiment runs for 2 hour only.
+* **For Valdidation** redundant lane connectors at crossroad (intended for experiment stage) are deleted for now.
 
 
 ## Problem
 
 * The windows 3D view can not be calibrated. A big blank area is display insted of fullscreen.  An error relates to OPEN GL is also generated after every simulation.  This problem might be because of the graphic card.
-* When there is no lane connector (to turn for example), the model generates error instead of pushing the car to "out way not found".
-![Error1](https://github.com/quangphhr/JacobStrasse-Tramline/blob/master/Material/Out%20way%20not%20found.png "Out way not found")
+* ~~When there is no lane connector (to turn for example), the model generates error instead of pushing the car to "out way not found".~~ **Solved**
 * Is there a way to prioritize 1 lane, especially inner lane, because the tram is deploy there and should have priority.
 
 
 ## To do
 
-* Adapt the source for pedestrial traffic light at T3 *(Wait for Data Master)*.
 * Run the model 1000 times, 12 hours each to calculate the confident interval of "car life span"
 * Validation: Compare the average Life span of car traveling JacobStraße with the real value. Also queue length if possible
 * Experiment:
