@@ -1,4 +1,4 @@
-
+﻿
 # JacobStraße-Tramline
 An OvGU Simulation project, Summer semester 2018
 
@@ -17,28 +17,23 @@ S1--T1--S2--T2--S3--T3--S4--T4--S5--T5--S6--T6--S7--T7--S8--T8--S9
 ## Current progress
 
 * Base model with 5 sources of car input.  Cars are generated using normal distribution with min/max limit.
-* 3 sources of tram input with fixed rate (1 currently disable).
+* Base model with 3 sources of tram input with fixed rate.
 * S1 is made to be stretched out of the map to have enough space for the car to function normally.
 * Pedestrian traffic light at T3
 * Both cars and trams are limit at 50 km/h
 * Histogram data and chart of car's life span, both directions.
 * Code for counting queue length at E3 and S7 (northward) at T6 and T8.
-* **For Validation** all car sources are changed to generate normal hour car for 1 hour, then rush hour car rate.  The validation experiment runs for 2 hour only.
-* **For Valdidation** redundant lane connectors at crossroad (intended for experiment stage) are deleted for now.
-
+* Validation successfully with real world data (Delay time and 2 queue-lengths)
+* 4 Experiments
 
 ## Problem
 
 * The windows 3D view can not be calibrated. A big blank area is display insted of fullscreen.  An error relates to OPEN GL is also generated after every simulation.  This problem might be because of the graphic card.
-* ~~When there is no lane connector (to turn for example), the model generates error instead of pushing the car to "out way not found".~~ **Solved**
-* Is there a way to prioritize 1 lane, especially inner lane, because the tram is deploy there and should have priority.
+* Prioritization of 1 lane, especially inner lane for Tram.
+* No Experiment on "Emergency Situation" Yet
 
+## Recommendation
 
-## To do
+* The traffic condition will mostly stays the same with the tram line built.
+* To build or not to build: why not.
 
-* Run the model 1000 times, ~~12~~ 2 hours each to calculate the confident interval of "car life span"
-* Validation: Compare the average Life span of car traveling JacobStraße with the real value. Also queue length.
-* Experiment:
-  * Creating a tramline, experiment 1 & 2 lane for car.
-  * Optimize the location of the tram station (Tram station is in the middle of the road, all cars will have to wait for the tram).
-  * Increase the number of trams from 6/hour to (1+5)\*6/hour during emergency situation and observe the increase delay time.
